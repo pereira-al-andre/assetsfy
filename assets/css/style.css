@@ -1,0 +1,376 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #B53471;
+}
+
+.sign-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sign-modal h3 {
+  color: #fff;
+}
+
+.sign-modal article {
+  padding: 1em;
+  background-color: #333;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sign-modal article span {
+  background-color: #333;
+  padding: .5em;
+  color: #eee;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  cursor: pointer;
+}
+
+.sign-modal article span:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: #666;
+}
+
+.sign-modal article form {
+  color: #eee;
+}
+
+.sign-modal article button {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #C4E538 !important;
+  -webkit-box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.4) !important;
+          box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.4) !important;
+  width: 100%;
+}
+
+.sign-modal article button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: #fff;
+}
+
+nav a {
+  color: #FDA7DF;
+  text-decoration: none !important;
+}
+
+nav a h1 {
+  font-weight: bolder;
+  color: #FDA7DF;
+}
+
+nav a h1:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  opacity: .7;
+}
+
+nav li a {
+  color: #FDA7DF;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #fff;
+}
+
+nav .signup {
+  background-color: #C4E538 !important;
+  -webkit-box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.5) !important;
+          box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.5) !important;
+  border-bottom: none !important;
+  color: #45520c;
+}
+
+nav .signup:hover {
+  color: #fff;
+}
+
+.call {
+  min-height: 350px;
+  background-color: #ED4C67;
+  border-radius: 15px 15px 0 0;
+  -webkit-box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+          box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+}
+
+.call h1, .call p {
+  color: #fff;
+}
+
+.call button {
+  -webkit-transition: .2s;
+  transition: .2s;
+  width: 250px;
+  font-size: 1em;
+  color: #45520c;
+  background-color: #C4E538;
+  -webkit-box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.5);
+          box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.5);
+}
+
+.call button:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0px 8px 15px rgba(111, 30, 81, 0.2);
+          box-shadow: 0px 8px 15px rgba(111, 30, 81, 0.2);
+}
+
+.about-us #accordion {
+  background-color: #333;
+  border-radius: 0 0 15px 15px;
+  padding: 1em;
+  -webkit-box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+          box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+}
+
+.about-us #accordion h3 {
+  color: #eee;
+  width: 100%;
+  text-align: center;
+}
+
+.about-us #accordion hr {
+  border: 1px solid #424242;
+}
+
+.about-us #accordion .card {
+  background-color: #333;
+  border-radius: 0 !important;
+}
+
+.about-us #accordion .card .card-header button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+}
+
+.about-us #accordion .card .card-header button span {
+  width: 30px;
+  height: 30px;
+  background-color: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-us #accordion .card h5 button {
+  color: #C4E538;
+}
+
+.about-us #accordion .card .card-body {
+  color: #fff;
+  background-color: #333;
+}
+
+.about-us #accordion .card:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: #404040;
+}
+
+.about-us .card-group {
+  margin: auto;
+  padding: 1em;
+}
+
+.about-us .card-group .card {
+  border: none;
+  text-align: center;
+  background-color: #B53471;
+  padding: 1em;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 5px !important;
+}
+
+.about-us .card-group .card img {
+  width: 90px;
+  height: auto;
+  margin: auto;
+}
+
+.about-us .card-group .card .card-body h5 {
+  color: #fff;
+}
+
+.about-us .card-group .card .card-body p {
+  text-align: justify;
+  min-height: 150px;
+  color: #fff;
+}
+
+.about-us .card-group .card .card-body a {
+  color: #fff;
+  background-color: #ED4C67;
+  -webkit-box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+          box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+}
+
+.about-us .card-group .card .card-body a:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.about-us .card-group .card:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer h1 {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.services {
+  padding: 1em;
+  background-color: #333;
+}
+
+.services hr {
+  border: 1px solid #555;
+}
+
+.services h1 {
+  width: 100%;
+  text-align: center;
+  color: #ED4C67;
+}
+
+.services article {
+  margin: auto;
+}
+
+.services article .card {
+  border: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: #444;
+  color: #eee;
+  border-radius: 10px;
+}
+
+.services article .card .card-body a {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #45520c;
+  background-color: #C4E538;
+  -webkit-box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.4);
+          box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.4);
+}
+
+.services article .card .card-body a:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.services article .card:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.contact {
+  background-color: #444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 5em;
+}
+
+.contact .form-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .form-row input {
+  background-color: #333;
+  border: none;
+  padding: 1em;
+  color: #fff;
+}
+
+.contact .form-row button {
+  -webkit-transition: .2s;
+  transition: .2s;
+  padding: .9em;
+  background-color: #ED4C67;
+  color: #fff;
+  -webkit-box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+          box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+}
+
+.contact .form-row button:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact h2 {
+  color: #999;
+}
+
+.contact p {
+  color: #999;
+}
+/*# sourceMappingURL=style.css.map */

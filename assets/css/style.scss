@@ -1,0 +1,343 @@
+html{ scroll-behavior: smooth; }
+body{
+    background-color: #B53471;
+}
+
+// Sign modal settings
+    .sign-modal{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        background-color: rgba($color: #000000, $alpha: .5);
+        
+        h3{
+            color: #fff;
+        }
+        article{
+            padding: 1em;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0px 10px 15px rgba($color: #000000, $alpha: .4);
+            display: flex;
+            flex-direction: column;
+
+            span{
+                background-color: #333;
+                padding: .5em;
+                color: #eee;
+                align-self: flex-end;
+                cursor: pointer;
+
+                &:hover{
+                    transition: .2s;
+                    background-color: #666;
+                }
+            }
+            
+            form{
+                color: #eee;
+            }
+
+            button{
+                transition: 0.2s;
+                background-color: #C4E538 !important;
+                box-shadow: 0px 1px 20px rgba($color: #C4E538, $alpha: .4) !important;
+                width: 100%;
+
+                &:hover{
+                    transition: 0.2s;
+                    transform: scale(1.05);
+                    color: #fff;
+                }
+            }
+        }
+    }
+// Sign modal settings END
+
+// Navigation Settings
+    nav{
+        a{
+            color: #FDA7DF;
+            text-decoration: none !important;
+
+            h1{
+                font-weight: bolder;
+                color: #FDA7DF;
+
+                &:hover{
+                    transition: .2s;
+                    opacity: .7;
+                }
+            }
+        }
+       
+
+        li {
+            a{
+                color: #FDA7DF;
+                padding: 1em;
+                border-radius: 5px;
+
+                &:hover{
+                    transition: .2s;
+                    color: #fff;
+                }
+            } 
+        }
+
+        .signup{
+            background-color: #C4E538 !important;
+            box-shadow: 0px 1px 20px rgba($color: #C4E538, $alpha: .5) !important;
+            border-bottom: none !important;
+            color: rgb(69, 82, 12);
+
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+// Navigation Settings END
+
+// Call to action header settings
+    .call{
+        min-height: 350px; 
+        background-color: #ED4C67;
+        border-radius: 15px 15px 0 0;
+        box-shadow: 0px 1px 20px rgba($color: #ED4C67, $alpha: .5);
+
+        h1, p{
+            color: #fff;
+        }
+
+        button{
+            transition: .2s;
+            width: 250px;
+            font-size: 1em;
+            color: rgb(69, 82, 12);
+            background-color: #C4E538;
+            box-shadow: 0px 1px 20px rgba($color: #C4E538, $alpha: .5);
+
+            &:hover{
+                transition: .2s;
+                box-shadow: 0px 8px 15px rgba($color: #6F1E51, $alpha: .2);
+            }
+        }
+    }
+// Call to action header settings END
+
+// About us section settings
+    .about-us{
+
+        #accordion{
+            background-color: #333;
+            border-radius: 0 0 15px 15px;
+            padding: 1em;
+            box-shadow: 0px 1px 20px rgba($color: #ED4C67, $alpha: .5);
+            
+            h3{
+                color: #eee;
+                width: 100%;
+                text-align: center;
+            }
+            hr{
+                border: 1px solid rgb(66, 66, 66)
+            }
+
+            .card{
+                background-color: #333;
+                border-radius: 0 !important;
+
+                .card-header{
+
+                    button{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                        text-decoration: none;
+
+                        span{
+                            width: 30px;
+                            height: 30px;
+                            background-color: lighten($color: #333, $amount: 5);
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+                
+                h5{
+                    button{
+                        color: #C4E538;
+                    }
+                }
+
+                .card-body{
+                    color: #fff;
+                    background-color: #333;
+                }
+
+                &:hover{
+                    transition: .2s;
+                    background-color: lighten($color: #333, $amount: 5);
+                }
+            }
+        }
+
+        .card-group{
+            margin: auto;
+            padding: 1em;
+                
+            .card{
+                border: none;
+                text-align: center;
+                background-color: #B53471;
+                padding: 1em;
+                transition: .2s;
+                border-radius: 5px !important;
+
+                img{
+                    width: 90px;
+                    height: auto;
+                    margin: auto;
+                }
+
+                .card-body{
+                    h5{
+                        color: #fff;
+                    }
+                    p{
+                        text-align: justify;
+                        min-height: 150px;
+                        color: #fff;
+                    }
+
+                    a{
+                        color: #fff;
+                        background-color: #ED4C67;
+                        box-shadow: 0px 1px 20px rgba($color: #ED4C67, $alpha: .5);
+
+                        &:hover{
+                            transition: .2s;
+                            box-shadow: none;
+                        }
+                    }
+                }
+
+                &:hover{
+                    transition: .2s;
+                    box-shadow: 0px 10px 15px rgba($color: #000000, $alpha: .2);
+                }
+            }
+        }
+    
+    }
+// About us section settings END
+
+// Footer Settings
+    footer{
+        h1{
+            margin: 0;
+            margin-top: 20px;
+            font-weight: bolder;
+        }
+    }
+// Footer Settings END
+
+// Services section settings
+.services{
+    padding: 1em;
+    background-color: #333;
+
+    hr{
+        border: 1px solid #555;
+    }
+
+    h1{
+        width: 100%;
+        text-align: center;
+        color: #ED4C67;
+    }
+    
+    article{
+        margin: auto;
+
+        .card{
+            border: none;
+            transition: .2s;
+            background-color: #444;
+            color: #eee;
+            border-radius: 10px;
+
+            .card-body{
+
+
+                a{
+                    transition: .2s;
+                    color: rgb(69, 82, 12);
+                    background-color: #C4E538;
+                    box-shadow: 0px 1px 20px rgba($color: #C4E538, $alpha: .4);
+
+                    &:hover{
+                        transition: .2s;
+                        box-shadow: none;
+                    }
+                }
+            }
+    
+            &:hover{
+                transition: .2s;
+                box-shadow: 0px 10px 15px rgba($color: #000000, $alpha: .4);
+            }
+            
+        }
+
+    }
+
+}
+// Services section settings END
+
+// Contact section settings
+.contact{
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    text-align: center;        
+    padding: 5em;
+
+    .form-row{
+        justify-content: center;
+
+        input{
+            background-color: #333;
+            border: none;
+            padding: 1em;     
+            color: #fff;           
+        }
+
+        button{
+            transition: .2s;
+            padding: .9em;
+            background-color: #ED4C67;
+            color: #fff;
+            box-shadow: 0px 1px 20px rgba($color: #ED4C67, $alpha: .5);
+
+            &:hover{
+                transition: .2s;
+                box-shadow: none;
+            }
+        }
+    }
+
+    h2{
+        color: #999
+    }
+    p{
+        color: #999;
+    }
+}
+// Contact section settings END

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <title>Assetsfy</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Navigation Settings -->
+        <nav class="navbar justify-content-between">
+            <a href="./index.html"> <h1> Assetsfy </h1> </a>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produtos-e-servicos">Produtos & Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Política de Privacidade e Termos de Uso</a>
+                </li>
+            </ul>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link signin signIn" href="#"> Entrar </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link signup signUp" href="#"> Cadastro </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Navigation Settings END -->
+
+        <!-- Header Settings -->
+        <header class="call d-flex flex-column align-items-right justify-content-center p-5">
+            <h1 class="">Encontre e personalize assets para o seu projeto sem dor de cabeça.</h1>
+            <p>
+                Praticidade e agilidade são as palavras de ordem.
+            </p>
+
+            <button class="btn btn-lg p-3 animated pulse infinite delay-2s signUp"> Começar</button>
+        </header>
+        <!-- Header Settings END -->
+
+        <!-- About us section -->
+        <section class="about-us">
+
+            <article id="accordion">
+                <h3 id="sobre">Como funciona</h3>
+
+                <hr>
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                O que é o Assetsfy?
+
+                                <span class="material-icons rounded-circle"> keyboard_arrow_down </span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Assetsfy é um produto da Developerando. O Assetsfy tem o objetivo de ajudar outros
+                            developers a aumentar a sua produtividade e expandir a sua criativadede. Como se não bastasse, você ainda pode disponibilizar seu próprio conteúdo e receber dinheiro por isso!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                O Assetsfy é de graça?
+
+                                <span class="material-icons rounded-circle"> keyboard_arrow_down </span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            A plataforma é de graça para quem deseja realizar até 1 projeto por vez, para alem disso você deverá adiquirir um dos planos disponíveis.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Como faço para acessar a plataforma?
+
+                                <span class="material-icons rounded-circle"> keyboard_arrow_down </span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Para acessar a plataforma é necessário <a href="#" class="signUp">criar uma conta</a> no Assetsfy usando
+                            e-mail e senha. Depois de confirmar o seu e-mail, é só começar a usar!
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="produtos-e-servicos" class="card-group">
+                <div class="card m-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Personalizáveis</h5>
+                        <p class="card-text">
+                            Não é porque é uma ferramenta que não pode ter sua cara, a ideia é te ajudar a desenvolver
+                            mais rápido e permitir que o trabalho continue com a sua cara.
+                        </p>
+                        <a href="#" class="btn signUp">Inicie agora</a>
+                    </div>
+                </div>
+
+                <div class="card m-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Responsivos</h5>
+                        <p class="card-text">O seu cliente vai poder interagir da meneira que desejar, seja por desktop
+                            ou celular. Mantenha a qualidade de conversão em dispositivos diferentes!</p>
+                        <a href="#" class="btn signUp">Monte o seu</a>
+                    </div>
+                </div>
+
+                <div class="card m-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Rápidos e Fáceis</h5>
+                        <p class="card-text">Você não precisa ficar horas planejando como será o layout para a melhor
+                            conversão, os modelos são planejados para ter a melhor UX possível.</p>
+                        <a href="#" class="btn signUp">Permita-se</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- About us section END -->
+
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <section class="services">
+            <h1>Vem com a gente!</h1>
+
+            <hr>
+
+            <article class="row container">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Para Desenvolver</h5>
+                            <p class="card-text">
+                                Facilite o seu trabalho, tenha centenas de designs pré estabelecidos prontos para serem personaliazados de acordo com o seu projeto.
+                            </p>
+                            <a href="./pages/para-devs/devs.html" class="btn">Quero Desenvolver</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Para Freelancers</h5>
+                            <p class="card-text">
+                                Em meio a todas as opções de assets disponíveis, você pode incluir o seu projeto. Distribua assets a cobre por eles!
+                            </p>
+                            <a href="./index.html" class="btn">Quero Distribuir</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="contact">
+            <h2>Faça parte dessa mamata!</h2>
+            <p> ;) </p>
+
+            <form>
+                <div class="form-row align-items-center">
+                    <div class="col-sm-3 my-1">
+                        <label class="sr-only" for="inlineFormInputName">Seu nome</label>
+                        <input type="text" class="form-control" id="inlineFormInputName" placeholder="Seu nome">
+                    </div>
+                    <div class="col-sm-3 my-1">
+                        <label class="sr-only" for="inlineFormInputGroupUsername">Seu e-mail</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                placeholder="Seu e-mail">
+                        </div>
+                    </div>
+
+                    <div class="col-auto my-1">
+                        <button type="submit" class="btn">Quero me cadastrar!</button>
+                    </div>
+                </div>
+            </form>
+
+            <h1>Assetsfy</h1>
+        </section>
+    </footer>
+    <!-- Footer section END -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

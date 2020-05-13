@@ -1,0 +1,99 @@
+body {
+  background-color: #B53471;
+}
+
+nav a {
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-decoration: none !important;
+}
+
+nav a h1 {
+  color: #ED4C67;
+  font-weight: bolder;
+}
+
+nav a:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  opacity: .7;
+}
+
+.jumbotron {
+  background-color: #ED4C67;
+  -webkit-box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+          box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.tier-options {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.tier-options .card-group {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.tier-options .card-group .featured {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.tier-options .card-group .featured:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.tier-options .card-group .card {
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 8px;
+  color: #666;
+}
+
+.tier-options .card-group .card .card-body a {
+  color: #fff;
+  background-color: #ED4C67;
+  -webkit-box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+          box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+}
+
+.tier-options .card-group .card:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.accountCreation {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1em;
+  display: none;
+  -webkit-box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+          box-shadow: 0px 1px 20px rgba(237, 76, 103, 0.5);
+}
+
+.accountCreation button {
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: #C4E538 !important;
+  color: #45520c;
+  -webkit-box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.5) !important;
+          box-shadow: 0px 1px 20px rgba(196, 229, 56, 0.5) !important;
+}
+
+.accountCreation button:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #fff;
+}
+/*# sourceMappingURL=para-devs.css.map */
