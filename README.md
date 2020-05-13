@@ -1,7 +1,7 @@
 # Assetsfy
 Este projeto nasce das minhas rotinas de estudo. Como ideia base para praticar novas habilidades, parti da ideia de repositório de assets de desenvolvimento focado em elementos modulares. Ex.: Navbars, sections inteiras, footers, buttons, etc. Todos serão customizáveis, adicionáveis ao seu projeto e poderão ser baixados ao final como um projeto único e consolidado.
 
-O site está disponível em https://assetsfy.000webhostapp.com/pages/para-devs/devs.html
+O site está disponível em https://assetsfy.000webhostapp.com/
 
 Seu desenvolvimento está dividido nas seguinte etapas:
 
